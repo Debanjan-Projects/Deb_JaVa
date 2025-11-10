@@ -755,8 +755,15 @@ class Car {
 //we havee total two types of memory, one is stack memory , and another one is heap memory ..
 
 
+
+
 *************
 //The Stack Memory ..
+
+
+//stack mein ak facility hota hain ki , jho sabshe upar hota hain , ohh pehele bahar niklega , orr , upor bhi add hoga , last in first out ..
+
+
 
 //where method invocation, and local variables live , .
 //go()
