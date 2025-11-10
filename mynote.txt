@@ -722,6 +722,9 @@ class Car {
 //or static block srif ak bar hi run hota hain , class create hone per ..
 
 
+
+
+
 (*******************************************)
 //pehele blocks 
 //then constructir .
@@ -740,7 +743,12 @@ class Car {
 
 6.methods .
 
+
+
 //******************************
+
+//Different Types of Memory ..
+
 
 //Difference between stack memory and heap memory ...
 
