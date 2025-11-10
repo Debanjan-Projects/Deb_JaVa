@@ -1,0 +1,19 @@
+//1.computer understand high level languages like c ,java,====>F.
+
+2.An algorith is  a set of instructions to accomplish a task.===>T.
+
+3.computer is smart enough to ignore incorrect syntax.====>F.
+
+4.java was first released in 1992.===>F.
+
+5. java was named over a person who made good coffee.===>F.
+
+6.byte code is platform independent.==>T.
+
+7.jdk is a part of jre.===>F.
+
+8.its optional to declare main method as public ===>F.
+
+9.class file contains machine code.===>F.
+
+10.println adds a new line at the end of the line .==>T.

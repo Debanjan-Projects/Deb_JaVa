@@ -1,0 +1,744 @@
+//**************************************************************
+//java history
+
+//lets start the java programming language begginers to advance.
+
+//java languge use karke hum log keya keya kar sakta hain,
+
+//wide usage (web-apps, backend,mobile apps ,enterprise softwware ),all things are do using java programming language ,
+
+//object oriented,
+
+//rich api and community supports,
+
+//what is programming language..
+//computer natural language nahi samajh ta hain.srif binary number samajh ta hain .
+
+//computer only know 0,1, language,..
+
+// a high level language ,  giving any instruction to computer step by step, compiler convert high level laanguage to low lwvwl languages to computer that computer easily understand the language..
+
+//giving instruction is what to do..
+
+
+//programming language is the middle language between human and machine.
+
+//what is algorithm.
+//koi bhi kam step step execute korneka process hi hotta hain algorithm.
+
+//yea
+
+//koi bhi problem ka solution nikal neke liye jho jho hum log step by step process likhte hain ohi hota hain algorithm.
+
+//what is syntax.
+//structure of words in a sentence.
+//rules of the language.
+//for programming exact syntax must be follewd.
+//
+
+
+//History of java
+//james goshling --ka karta the sun microsystems company per kam karta the ..
+//1990 mein kam karte the ,or unko ak vcr player type ki chis banane thi then ushko bananeke liye uhhnone c++ use karna shurur kiya,uhnone c++ karneka time notice kiya ki c++ main bohot sare problem hain ,code manage nahi ho pha raha hain.
+
+//then he and his team make a programming language that is kown as java programming language.
+
+
+//java ka pehela nnam tha ohk..remane hoya 9095 mein java huya.
+
+//java programming language ka main principle ehh tha ki write onne and run anywhere.
+
+//enhone bola ki apne programming language ko hum log direct macchine level language mein nahi convert karenge ..
+java program => svae program as -my program(any name.java)=>compiler (compiler kam karta hain high level language ko  machhine level language mein convert karta hain),lekin ehaa per machine level language mein nahi convert karke just(al intermediate code mein convert kar diiya that is known as byte code)=> the ayega jvm(java vartual machine )ohi ohh byte codee kko mechine level language mein convert karega.
+
+
+//why this programming language name saev as a java ?
+backword compatablelity..
+
+//coffe ,har time fresh rahegi..
+
+//version-------java1.02(250 classes) => java1.1(500 classes) =>java 2(2300 classes) ==>java5.0(3500classes)
+
+
+//magic of byte code
+
+//sourec code => compiler => output code(byte code) ==> jvm
+
+//compiler change hi kar diya ushka kam ,like basically compiler works as a connvert high level code to low lwvwl code(machine level code)
+
+//but the compiler work as check error of an code,validity of an code,or code ko ashi ak intermidiate language mein convert karna ki jho human readable na ho..
+
+//byte code ka advantages...
+// 1. verify the code
+2.human readable nahi kiya .
+
+3. any platform mein chal sakta hain.
+
+
+//how java change the internet..
+//portability with write once and Run anywhere.
+
+//security beacuse runnning on virtual machine,
+
+//(snadboxing)..security..
+
+//ex: ap jitna array declare kara hain ap utna hi used kar sakta hoin ushhe bahar ap nahi used kar sakta hoin ehh jvm bolega..
+
+//java Buzzwords or Robust..
+//strong --consitency jho chal paye..
+//java is robustt due to its strong  memory management, exception handling,and type checking mechanisms ..
+
+//java continously chal pata hain bina bug or bina error ke ..
+
+//multithreaded.
+//cpu to execute multiple threads concurrently,allow more efficently processing and task management.
+
+//architecture neutral.
+//java is architecturally neutral because its complied code(bytecode) can run on any device.with jvm.
+
+//interpreted annd high performence.
+//java combines high performance with interpretability as its bytecode is interpreted by the jvm.which ploys  jit(just in time).
+
+//distributesd..
+//java is inherenly distributed .
+
+
+//oop(object oriented programming language).
+//keya kam karna hainn.
+// or kishpe karna hain.
+
+//pehela hamara data keya hain..or ush data ke upor keya keya kam karana hain..
+
+
+//*************************************************************
+
+//java basic.
+
+////java ak strongly type language hain.
+
+
+//java mein har chhis class mein ata hain or mainmethid ke andar ata hain.
+
+program.java(java source file)=>java compiler(javac)=>program.class(bytecode.class File)=>jvm(java)=>program(output).
+
+
+
+//Anatomy of a class..
+
+//public class FirstProgram{
+    public static void main(String[] args){
+
+        System.out.println("Hi Debanjan");
+    }
+}
+public=> every one can access it,(jvm ishko access kar sakt ahain.)
+class=>In Java, a class is a blueprint or template used to create objects.
+
+classname=>any name as per user
+
+{
+    //puri class hogi
+    //function or method declare kiya hain.
+    //public=> ish ko bhi koi bhi access kar sakta hain.
+    void=>return type.
+    //main => method name
+    //string[]=>array
+    {
+        //ishke andar hain method ki defination
+        system=>for print // println=next line.
+        //;=>ak instruction end here.
+
+    }
+
+}
+
+//important of main methid..
+
+public static void main(string[] args)
+//ishhi method wise chalte rahe 
+//entry point of a java program where the execution starts ..
+//without main method the java virtual machine does not know where to being running the code.
+
+
+//public static:
+// ensuring access by  the jvm without needing to instance the class.
+
+
+
+
+
+//java file extention
+.java =>source code
+.class =>java byte code.
+
+//jdk, jvm ,and jre.
+
+
+
+//jvm => sabshe andar jvm// not platform -independent.
+
+//jre=> then ushe upor jre
+
+//jdk=>the ushhe upor jdk.
+
+//jdk bohot kam logoke pass hoga lekin jre har ak ke pass rahta hain.
+
+
+//what is ide..
+1.ide stand for integrated development environment.
+
+2.software suite that consolidates basic tools required for software development.
+
+3.central hub for coding finding problems,and testing.
+4.designed to improve developer efficiency.
+
+
+
+
+
+
+
+//**********************************************************************
+
+6......
+*classes and objects ..
+
+
+1.process vs object orinented.
+2.instance variables and methods
+3.Declaring and using objects
+4.class vs object
+5.This and static keyword
+6.constructors and code blocks
+7.stack vs heap memory .
+8.primitive vs Reference types.
+9.variables Scopes
+10.Garbage collection and Finalize.
+
+
+************************************
+6.1 process vs object oriented 
+
+//procedural oriented programming vs object oriented programming language ...
+
+//process oriented meanns kam keya karna hain ..
+
+/// or object oriented means jho object ki charo or bana huya hain ..
+
+//Procedural Oriented Programming (POP):
+In POP, the program is divided into small parts called functions or procedures, and the focus is on writing step-by-step instructions to solve a problem. It follows a top-down approach, where the main problem is broken into sub-problems and solved using functions. Data in POP is often shared globally and can be accessed by any function, which makes it less secure. Reusability of code is limited, as functions can only be reused by calling or copying them. Popular POP languages include C, Fortran, and Pascal.
+
+//ehar hum log function banati hain .
+// each function have own local data and .
+// also have some global data ..
+//and global data must be accessable..
+
+
+
+Object-Oriented Programming (OOP):
+In OOP, the program is divided into small units called objects, which contain both data and methods to operate on that data. It follows a bottom-up approach, focusing on creating reusable, modular, and secure code. Data is encapsulated within objects, and access is controlled, making OOP more secure. It also supports features like inheritance, polymorphism, and abstraction, which improve reusability and flexibility of code. Popular OOP languages include C++, Java, Python, and C#.
+
+//indentify the objects.
+//define the classes .
+//objects interact with each other .
+
+
+
+
+
+// oop mein pehela kam hain object define karna ..
+
+// procedure mein important hain chise or processs..
+
+//***************************************
+6.2 instance variables and methods ..
+
+class----> cat 
+
+// class  have two things
+1.property.(features)
+1.four legs 
+2.mustache 
+3.tail.
+4.fluffy.
+
+
+2.methods..(behaviour)
+1. lie.
+2.mew
+3.jump
+4.scratch.
+
+
+//class ke andar jho bhi property hain ohh hain , instance variable, 
+
+//and  jho bhi method hain , ushko kahenge , instance method.. 
+
+
+//ak object hum log ddefine kar diya .then ushka property bana diya or method bana diya or ak jaiga per rakh diya .
+
+//lekin in sab ko jab define karte hain tab ishko bolta hain ..
+
+//instance variable .(function ka local variable )
+ehh ak class ki property ..
+
+//instance method 
+
+// class also have 
+//methods 
+
+//attributes 
+
+//property change bhi ho sakt hain,nahi bhi ho sakta hain . .
+
+
+//classs ki andar jho bhi property hain ohh hain instance variable and class ki andar jho bbhi methods hain ohh hain instance method..
+
+//***************************************
+
+package JAVA_BASIC.classAndObjects;
+
+public class car {
+
+    //its all are properties//instance variable.
+    int noOfWheels;
+
+    String color;
+
+    float maxSpeed;
+
+    float currentFuelLiters;
+
+    int noOfSeats;
+
+
+    //and its all are method 
+    //instance method.
+    public void drive(){
+        System.out.println("car is driving");
+        currentFuelLiters--;
+    }
+
+    public void addFuel(float fuel){
+        currentFuelLiters += fuel;
+    }
+
+    public float getcurrentFuelLiters() {
+        return currentFuelLiters;
+    }
+}
+
+
+//example of intance variable and instance method.
+
+*****************************************
+6.3 Declaring objects .
+
+1.object creation: new keyward she hum log object bana sakta hain .
+
+
+//agar kaha per bhi new keyword mile tho udhar might be continue a objects creation ..
+
+//Memory allocation: object allocate memory  in the heap memory .
+
+//constructor invocation: calls the calss constructor to initialize the objects.
+
+//Reference Return: Returns a reference to the created objects .
+
+//Array Creation: also used for creating arrays like int[] arr = new int
+*************************
+car myCar == kishi object ka varibale ko reference keheta hain ...
+
+
+ak object create karke my box mein dal diya ..
+// abhi mybox mein andar ak address create ho geya .
+// or my box ke anadra aka reference create ho gya .
+//my box kehega mere pass ak address hain ,jho lehh jata hain main obj ke pass jaha main obj hain ..
+
+
+
+
+
+//my car = new car ...
+
+//Dynamic allocation : unlike static allocation new allows for dynamic
+
+//hamaha code continue run kar raha hain .ab run karneeke time mein jaha bhi ak new obj ayega ush time mein hi ohh object memory mein allocate hoga .pehele she declare karke nahi rakha jata hian .
+
+// programm run kar raha hain tab jho allocation ho rah ahian ohh hain dynamic allocation ..
+
+//or jvm age she kuch kuch allocation karke rakhta hain ki ,ohh ap karenge hi ohh hain static allocation ...
+
+
+*********************************
+Declaring objects syntax.
+
+Class name objecname   keyword  constructor.
+
+student     student1 = new      student();
+
+
+
+class name  reference variable    new keyword  constructor 
+
+myClass    objRefvar           =   new         myClass();
+
+(      Declaration            )instantiation  initializaton
+
+
+// objRefvar is a Reference variable Og My class type
+new is a java keyword used to instantitae a class.
+
+
+//using object ..
+
+//access properties using .operator like product.price ..
+
+//what is class and object 
+//class vs object .
+
+//class are blue print ..
+
+//object are real values in memory ..
+
+//new(keyword) map she jho new things create karne wala hain.. 
+
+// class actuall memory mein exist nahi karta hain ..
+
+//har ak object ka har ak property honge ..
+
+//class 
+
+propetrt     methods (behaviours)
+
+propert alwasy may be change but not the methods ..
+
+
+
+*********************************
+6.5.. This Keywords ...
+
+//current instance: Refers to the current class instance variable.
+//constructor call: can be used to invoke a constructor of the same class(this()).
+
+//Method call: invokes a method of the current objects .
+
+//pass and argument : can be passed as argument in the method call.
+
+5.Return the current class instance: can return the current class instance from the method.
+
+//current contex, apna hi reference ... ko fetc kkarneke liye hum og used karte hain this keyword..
+
+//koi bhi class ka apni instance used karna hoin , apna method used karna ho , to hum log used karenge this ..
+
+//hum log apni instance variable , or instace method ko hi used kar rahi hain ..
+
+//this ka matlab hain current objects.
+
+
+
+
+
+********************************
+//Static Keyword.
+
+1.static variables: belong to the class not indiviidual instance,shared among all instance  of the class.
+
+2.static Methods: can be called without creating an object of the class, can only directly access static variables and other static methods ,..
+//bina object banaya class ko hum log used kar sakta hain ..
+
+
+
+3.no acccess to Non-static Members: static Methods and blocks cannot directly access non-static members(variables and methods )of the class.
+
+//kiu ki pata nahi chhalega ki shared copy conshi object mein used karna hain ..
+
+// instance copy jho srif ak bar bane , har object ka sath nahi bane .
+
+//a single copy ..
+//rakhneke liye declare karna padega static ..
+
+//main method ko hum log static ishh liye banati hain ki , jvm ko object create nahi karna pade.
+
+//agar object kishi ko access karna chata hain to  object ka bhi kar sakta hain, or cllas ka bhi kar sakta hain ..
+
+//static field kko hum log static ke andar bhi access kar paya , or non static mein bhi access kar paya , 
+//non static ko static ke andar access nahi kar payenge ..
+
+//static hain class ke pass , or non static hain , object ke pass.
+
+//lekin agar ak class kuch access karna chata hain to , apna koi bhi class ko to accesss kar sakta hain ,lekin object ko nahi access kar pata hain , access karneke liye name bol na padta hain ..
+
+// static keyword hum log tab hi used kar sakta hain , jab class ke pass  kuch rakhna hain tab hi hum log static used kar sakta hain ..
+
+// static ko minmum se min used karna hain .
+
+// non static ka access nahi hota jab hum logo ke pass static ki concept ho to ,,,
+
+// ehh object oriented programming ka procedure ko follow nahi karta hain ..
+
+// agar jvm ehh chata hain ki ap ki code kaha she run karna start karna shuru karu , ta ki ohh srif mere class ke nam . lagake call  kar paye  so just  put .
+
+
+
+
+**************************************
+//constructors .......
+
+// class ke basis ,mein object create karta hain .
+//agar user constructor nahi create karta hian ,tab jvm khub she ak constructor create kar deta hain .
+
+1.purpose: construtor initialize new objects and set initial states for the objects attributes,
+
+2.Naming: A constructor must have the same name as the class in which it is declared.
+
+3.No return Type: Constructor do not have a return type, not even void.
+
+4.Automatically calls: A constructors is automatically called when an instace of the class is created .
+
+
+// ehh dekhta  method jaishe hain lekin ish ka return type nahi hota hain .. declare nahi kara jata ,
+
+// constructor ak new obj ccreate  karta hain , or obj hi return karta hain ..
+
+// constructor ke namme ohi hoga jho class ka name hoga ..
+
+//jabhhi ak new obj banayaa jayega tab bhi constructor call ho jata hain ..
+
+// compalsari ak argument share karna hain ..
+
+
+
+//types  of constructors  :
+
+
+//Default constructor: if no constructor is explicitly defined , java providees a default constructor that initializes all member variables to default to default values.
+
+2.parameterized constructors:
+constructors can have parameters to pass value when creating an objects , allowing for different initialization..
+
+//example...
+Car(String carColor, float currPrice){
+    color = carColor;
+    price = currPrice;
+}
+
+
+
+//Constructor Chaining:
+1.within same class: using this() to call another constructor in the same class.
+
+2.First statement : this() must be the first statemnet in a constructor.
+
+3.No Loop: Constructor chaning cant from a loop, its must have a termination point.
+
+// class ki multiple constructor bhi ho sakta hain ..
+// ak constructor hoin jish mein argument ho sakta hain ,or ak constructor hoin jishmein argument nahi ho sakta hain ..
+
+
+
+//***********
+
+//codes blocks ..
+1.scope: code blocks{} determine the scope of variables.
+2.Local variables: variables inside a block are not accessible outside it.
+
+3.initialization Blocks: Blocks without static run each time an instance is craeted.
+
+4.Static Blocks: Blocks with static run once when the cllass is loaded ..
+
+
+//jaha bhi koi bhi ak { } laga diya ohhh ho hain hain code blocks 
+
+
+(****************)
+//pehele blocks 
+//then constructir .
+//then method..
+
+//way to written a good java code .
+
+
+1.static variable..
+2.non -static variable .
+
+3.static blocks ,
+4. normal blocks .
+
+5. constructors.
+
+6.methods .
+
+//******************************
+
+//Difference between stack memory and heap memory ...
+
+//we havee total two types of memory, one is stack memory , and another one is heap memory ..
+
+
+*************
+//The Stack Memory ..
+
+//where method invocation, and local variables live , .
+//go()
+//doStuff()
+//main()
+
+// method , stack memory main add hota hain ..
+// call stack .  
+// method jabvhi kishi ko call karta hain tab ohh ushki upor chala jata hain eshh tara akta stack create hota hain ..
+
+// stack hoga static.
+
+
+
+************
+//The Heap 
+//where All objects live 
+
+//Duck Objects,
+//Snowboard objects.
+//Button objects .
+
+// heap mein koi bhi particular place nahi hota hain , oha jaha jage mile oha , jah ke refeerence deh dete hain..
+//actually demo rehega stack mein or reference  bhi lekin object rehega heap meinn ..
+
+
+
+//***************************************
+//6.8 primitive vs Reference Type ...
+
+//data types in java ..
+
+//primitive (intrinsic)=>
+
+1.numeric.
+1.1- integer.
+1.2floating point 
+
+
+2.non- numeric.
+2.1characters 
+2.2Boolean
+
+//primitive always present in the stack memory ..
+
+
+//Non - primitive (derived)
+1class
+2.Array 
+3interface
+4Objects 
+5.String
+
+// non - primitive memory are always present in the heap memory ..
+
+//reference are may be also a integer value so, reference are store total 4 byte .
+
+
+
+
+
+//primitive vs Reference type..
+
+1.Memory: primitives store actual values; refeerence types store addresses to objects.
+
+2.Defaults Values: primitives have specific defaults like 0 or false reference types default to nuull.
+
+3.speed: Access to primitive is generally faster.
+
+4.Storage Location: primitive are stored in the stack , reference types are store in the heap .
+
+5. comparison:Primitive compared by value:reference types compared by reference ..
+
+
+
+//*************
+//variable scope ..
+
+//instance variable
+ //local variable .
+
+
+
+//local variable ..
+//jho bhi chis block ke nadar declare kara geya hain ohh hain local block ..
+
+// instace  variable  hain class ke variable hain , inko puri class mein kahi bhi declare kar sakta hain .. ..
+
+// in sab ko kishi bhi place per declare kara jha sakta hain ..
+
+//global scope .
+// puri class mmein kahi bhi access kar sakta hain .
+
+
+//Local scope .
+// ohh srif jaha bhi declare kara geya hain , udhar hi srif used kar sakta hain ,, llekin ushshe bahar nahi used kar sakte hain ..
+
+//global scope ke andar jho varibale declare kara jata hain , ohh hain global variable .
+
+// or local scope ke andar jho variable declare kar sakte hain , ohh local variable hota hain ..
+
+
+
+
+//****************************
+6.10 Garbage collection and finalize..
+
+1.Automatic process: garbage collection is managed by the java virtual machine(jvm), running in the background.
+
+2.object Eligibility: objects that are no longer reachable meaning no active references to them , are eligible for grabage collection.
+
+3.No manual control: Unlike languages like c++ , java developers cannot explicitly deallocate memory , Garbage collection is automatic and non-deterministic.
+
+4.Generational collection: java uses a generational garbage collection strategy , which divides memory into different regions (young , old , and parmanent generations)based on objects ages.
+
+5.heap memory : garbage collection occurs in the heap memory , where all java objects , reside.
+
+6.performance performace: particularly if it runs frequently , or takes a  long time to complete .
+
+**********
+// eshe object jho hum log nahi used kar sakta hain , or kam khatam ho chuka hain ,or koi bhi used nahi kar raha hain , ush ko bad deh dehh sakta hain ..
+
+
+// jho bhi object hain , heap ke andar jish ko koi bhi nahi used kar raha hain ushko just remove kar den ahain .
+
+// memory khali karna hain ..
+//java apne obj ko bohot shar generation main rakh ta hain .
+
+
+
+// gc  koi bhi manusl intervention nahi hoga ,
+//automatically  chalega , 
+//move karega
+//jinke pass reference nahi hain unko , move karrega , young mein , old mein , then permanent generations main ..
+
+
+
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

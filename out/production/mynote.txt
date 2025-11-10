@@ -1,0 +1,208 @@
+//**************************************************************
+//java history
+
+//lets start the java programming language begginers to advance.
+
+//java languge use karke hum log keya keya kar sakta hain,
+
+//wide usage (web-apps, backend,mobile apps ,enterprise softwware ),all things are do using java programming language ,
+
+//object oriented,
+
+//rich api and community supports,
+
+//what is programming language..
+//computer natural language nahi samajh ta hain.srif binary number samajh ta hain .
+
+//computer only know 0,1, language,..
+
+// a high level language ,  giving any instruction to computer step by step, compiler convert high level laanguage to low lwvwl languages to computer that computer easily understand the language..
+
+//giving instruction is what to do..
+
+
+//programming language is the middle language between human and machine.
+
+//what is algorithm.
+//koi bhi kam step step execute korneka process hi hotta hain algorithm.
+
+//yea
+
+//koi bhi problem ka solution nikal neke liye jho jho hum log step by step process likhte hain ohi hota hain algorithm.
+
+//what is syntax.
+//structure of words in a sentence.
+//rules of the language.
+//for programming exact syntax must be follewd.
+//
+
+
+//History of java
+//james goshling --ka karta the sun microsystems company per kam karta the ..
+//1990 mein kam karte the ,or unko ak vcr player type ki chis banane thi then ushko bananeke liye uhhnone c++ use karna shurur kiya,uhnone c++ karneka time notice kiya ki c++ main bohot sare problem hain ,code manage nahi ho pha raha hain.
+
+//then he and his team make a programming language that is kown as java programming language.
+
+
+//java ka pehela nnam tha ohk..remane hoya 9095 mein java huya.
+
+//java programming language ka main principle ehh tha ki write onne and run anywhere.
+
+//enhone bola ki apne programming language ko hum log direct macchine level language mein nahi convert karenge ..
+java program => svae program as -my program(any name.java)=>compiler (compiler kam karta hain high level language ko  machhine level language mein convert karta hain),lekin ehaa per machine level language mein nahi convert karke just(al intermediate code mein convert kar diiya that is known as byte code)=> the ayega jvm(java vartual machine )ohi ohh byte codee kko mechine level language mein convert karega.
+
+
+//why this programming language name saev as a java ?
+backword compatablelity..
+
+//coffe ,har time fresh rahegi..
+
+//version-------java1.02(250 classes) => java1.1(500 classes) =>java 2(2300 classes) ==>java5.0(3500classes)
+
+
+//magic of byte code
+
+//sourec code => compiler => output code(byte code) ==> jvm
+
+//compiler change hi kar diya ushka kam ,like basically compiler works as a connvert high level code to low lwvwl code(machine level code)
+
+//but the compiler work as check error of an code,validity of an code,or code ko ashi ak intermidiate language mein convert karna ki jho human readable na ho..
+
+//byte code ka advantages...
+// 1. verify the code
+2.human readable nahi kiya .
+
+3. any platform mein chal sakta hain.
+
+
+//how java change the internet..
+//portability with write once and Run anywhere.
+
+//security beacuse runnning on virtual machine,
+
+//(snadboxing)..security..
+
+//ex: ap jitna array declare kara hain ap utna hi used kar sakta hoin ushhe bahar ap nahi used kar sakta hoin ehh jvm bolega..
+
+//java Buzzwords or Robust..
+//strong --consitency jho chal paye..
+//java is robustt due to its strong  memory management, exception handling,and type checking mechanisms ..
+
+//java continously cha pata hain bina bug or bina error ke ..
+
+//multithreaded.
+//cpu to execute multiple threads concurrently,allow more efficently processing and task management.
+
+//architecture neutral.
+//java is architecturally neutral because its complied code(bytecode) can run on any device.with jvm.
+
+//interpreted annd high performence.
+//java combines high performance with interpretability as its bytecode is interpreted by the jvm.which ploys  jit(just in time).
+
+//distributesd..
+//java is inherenly distributed .
+
+
+//oop(object oriented programming language).
+//keya kam karna hainn.
+// or kishpe karna hain.
+
+//pehela hamara data keya hain..or ush data ke upor keya keya kam karana hain..
+
+
+//*************************************************************
+
+//java basic.
+
+////java ak strongly type language hain.
+
+
+//java mein har chhis class mein ata hain or mainmethid ke andar ata hain.
+
+program.java(java source file)=>java compiler(javac)=>program.class(bytecode.class File)=>jvm(java)=>program(output).
+
+
+
+//Anatomy of a class..
+
+//public class FirstProgram{
+    public static void main(String[] args){
+
+        System.out.println("Hi Debanjan");
+    }
+}
+public=> every one can access it,(jvm ishko access kar sakt ahain.)
+class=>In Java, a class is a blueprint or template used to create objects.
+
+classname=>any name as per user
+
+{
+    //puri class hogi
+    //function or method declare kiya hain.
+    //public=> ish ko bhi koi bhi access kar sakta hain.
+    void=>return type.
+    //main => method name
+    //string[]=>array
+    {
+        //ishke andar hain method ki defination
+        system=>for print // println=next line.
+        //;=>ak instruction end here.
+
+    }
+
+}
+
+//important of main methid..
+
+public static void main(string[] args)
+//ishhi method wise chalte rahe 
+//entry point of a java program where the execution starts ..
+//without main method the java virtual machine does not know where to being running the code.
+
+
+//public static:
+// ensuring access by  the jvm without needing to instance the class.
+
+
+
+
+
+//java file extention
+.java =>source code
+.class =>java byte code.
+
+//jdk, jvm ,and jre.
+
+
+
+//jvm => sabshe andar jvm// not platform -independent.
+
+//jre=> then ushe upor jre
+
+//jdk=>the ushhe upor jdk.
+
+//jdk bohot kam logoke pass hoga lekin jre har ak ke pass rahta hain.
+
+
+//what is ide..
+1.ide stand for integrated development environment.
+
+2.software suite that consolidates basic tools required for software development.
+
+3.central hub for coding finding problems,and testing.
+4.designed to improve developer efficiency.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

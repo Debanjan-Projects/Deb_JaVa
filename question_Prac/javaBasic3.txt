@@ -1,0 +1,19 @@
+//1.in java ,&& and || operators perform short -circuit evaluation.==>T.
+
+2.in an if-else statement the else block executes only when the if condition is false ==>>T.
+
+3.java allows sn if ststement without the else part==>T.
+
+4. the ^operator in java is used for exponentiation.==>F.
+
+5.unary minus operator can be used to negate the value of a variable in java.==>T.
+
+6.a+=b is equivalent to a = a+b in java.==>T.
+
+7.in java the binary number system uses base 10 ==>F.
+
+8.the number 1010 is binary is equivalent to 10 in decimel ===>T.
+
+9.& and | are the logiacl operators in java ===> F.
+
+10.in java a >>2 shifts the binary bits of a to the left by 2 position ==>F.

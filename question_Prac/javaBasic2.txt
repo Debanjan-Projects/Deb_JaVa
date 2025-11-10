@@ -1,0 +1,19 @@
+1.in java a variable's name can stsrt with a number ===>F.
+
+2.char in java can store a single character.===>T.
+
+3.class names in java typically start with a lowercase letter ==>F.
+
+4.100L is a valid long literak in java =>T.
+
+5..\d is an escape sequence in java for a digit character ==>F.
+
+6.Scanner class is used for reading console input ==> T.
+
+7. In java an int can be automatically converted to a byte .==>f.
+
+8.java variable names are case sensitive==.T.
+
+9.scanner class can be used to read both primitive data types and string ===>T.
+
+10.Explicit casting is required to connvert a double to an int.===>t.
