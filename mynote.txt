@@ -446,15 +446,30 @@ new is a java keyword used to instantitae a class.
 
 
 // class actuall memory mein exist nahi karta hain ..
-
+**********************
 
 //har ak object ka har ak property honge ..
+//har obj ki apne apni value honge ..
 
+
+*******************
 //class 
-
 propetrt     methods (behaviours)
 
 propert alwasy may be change but not the methods ..
+
+*******************
+class ki matlab , suppose ak car ki blueprint  create kara geya hain , ..
+// ushka features bhi declare kara geya hain , lekin ushka , features koi bhi kuch bhi kam nahi karta hain ..
+
+
+//*******************
+
+//lekin after using new keyword create a object , its means , class all features are now working , car have a specific name and color , car can , run , can drive ,, and so an soo...
+
+//behaviour ko hum log call kar payenge , or use kar payenge ..
+
+
 
 
 
@@ -462,32 +477,49 @@ propert alwasy may be change but not the methods ..
 6.5.. This Keywords ...
 
 //current instance: Refers to the current class instance variable.
+
+***************
+//mainly this ko hum log constructor ki call mein karte hain ...
+
+***********
+
 //constructor call: can be used to invoke a constructor of the same class(this()).
+
 
 //Method call: invokes a method of the current objects .
 
 //pass and argument : can be passed as argument in the method call.
 
+
 5.Return the current class instance: can return the current class instance from the method.
+
 
 //current contex, apna hi reference ... ko fetc kkarneke liye hum og used karte hain this keyword..
 
+
 //koi bhi class ka apni instance used karna hoin , apna method used karna ho , to hum log used karenge this ..
 
+
 //hum log apni instance variable , or instace method ko hi used kar rahi hain ..
+
+
 
 //this ka matlab hain current objects.
 
 
 
-
-
 ********************************
+
 //Static Keyword.
+
 
 1.static variables: belong to the class not indiviidual instance,shared among all instance  of the class.
 
+
 2.static Methods: can be called without creating an object of the class, can only directly access static variables and other static methods ,..
+
+
+
 //bina object banaya class ko hum log used kar sakta hain ..
 
 
@@ -496,17 +528,43 @@ propert alwasy may be change but not the methods ..
 
 //kiu ki pata nahi chhalega ki shared copy conshi object mein used karna hain ..
 
+
+***********************
 // instance copy jho srif ak bar bane , har object ka sath nahi bane .
+*********************
+
+//ki agar koi chis hum log create karna cha rahe hain ki , ohh ak bar hi create hoin , sabke liye alag alag na create hoin , 
+
+
+//or ak bar change karne mein sab place mein hi  automatically change ho jaye ..
+
+
+********************************
+
 
 //a single copy ..
 //rakhneke liye declare karna padega static ..
+**************************
+
+//chaiye koi bhi data hoin , koi bhi method hoin , koi bhi property hoin ,jho ki class ki behaviour hoin naki  indivisual obj ka ,,
+
+// instance ka behaviour na hoin , srif class ka hoin .
+
+
+*********************
 
 //main method ko hum log static ishh liye banati hain ki , jvm ko object create nahi karna pade.
 
+
+
 //agar object kishi ko access karna chata hain to  object ka bhi kar sakta hain, or cllas ka bhi kar sakta hain ..
 
+*************************
 //static field kko hum log static ke andar bhi access kar paya , or non static mein bhi access kar paya , 
+
 //non static ko static ke andar access nahi kar payenge ..
+******************
+
 
 //static hain class ke pass , or non static hain , object ke pass.
 
