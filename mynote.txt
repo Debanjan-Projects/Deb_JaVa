@@ -587,14 +587,25 @@ class ki matlab , suppose ak car ki blueprint  create kara geya hain , ..
 //constructors .......
 
 // class ke basis ,mein object create karta hain .
+
+
+
 //agar user constructor nahi create karta hian ,tab jvm khub she ak constructor create kar deta hain .
 
+******************
 1.purpose: construtor initialize new objects and set initial states for the objects attributes,
 
+//its must be looking method , but it dont have return type  ..
+//constructor apne ap hi obj return karta hain ..
+
+********************
 2.Naming: A constructor must have the same name as the class in which it is declared.
+//constructor ka name ap khud she nahi dehh , sakte hoin , kiu ki ehh restricted hota hain , jho bhi class ke name hoga , ohi constructor ki name hoga ..
+
+*************
 
 3.No return Type: Constructor do not have a return type, not even void.
-
+***************
 4.Automatically calls: A constructors is automatically called when an instace of the class is created .
 
 
@@ -609,14 +620,19 @@ class ki matlab , suppose ak car ki blueprint  create kara geya hain , ..
 // compalsari ak argument share karna hain ..
 
 
-
+*******************************
 //types  of constructors  :
 
-
+//no parameterized constructor.
 //Default constructor: if no constructor is explicitly defined , java providees a default constructor that initializes all member variables to default to default values.
 
+
+***************
 2.parameterized constructors:
 constructors can have parameters to pass value when creating an objects , allowing for different initialization..
+
+
+//parameters must be declare here..
 
 //example...
 Car(String carColor, float currPrice){
@@ -625,34 +641,88 @@ Car(String carColor, float currPrice){
 }
 
 
+//3. Copy Constructor (User-defined)
 
+Java does not provide a built-in copy constructor like C++,
+but you can create your own to copy data from another object.
+
+🔹 Example:
+class Car {
+    String model;
+    int year;
+
+    Car(String m, int y) {
+        model = m;
+        year = y;
+    }
+
+    // Copy constructor
+    Car(Car obj) {
+        model = obj.model;
+        year = obj.year;
+    }
+
+    void display() {
+        System.out.println("Model: " + model + ", Year: " + year);
+    }
+
+    public static void main(String[] args) {
+        Car c1 = new Car("Audi", 2024);
+        Car c2 = new Car(c1); // Copy constructor used
+        c2.display();
+    }
+}
+
+*******************************
 //Constructor Chaining:
+//ak class mein bohot sare constructor ho sakte hain ..
+
+***********************
+
 1.within same class: using this() to call another constructor in the same class.
+
 
 2.First statement : this() must be the first statemnet in a constructor.
 
+
 3.No Loop: Constructor chaning cant from a loop, its must have a termination point.
+
 
 // class ki multiple constructor bhi ho sakta hain ..
 // ak constructor hoin jish mein argument ho sakta hain ,or ak constructor hoin jishmein argument nahi ho sakta hain ..
 
 
 
-//***********
+//**********************
 
 //codes blocks ..
+
+// jaha per bhi ak opening curlibrasesh and ak close curlibrasesh hi hota hain , ushke anadr jho bhi code hota hian , oh hain code block ..
+
+***************
 1.scope: code blocks{} determine the scope of variables.
+*********
+
+
+
 2.Local variables: variables inside a block are not accessible outside it.
 
+
+
 3.initialization Blocks: Blocks without static run each time an instance is craeted.
+
+
 
 4.Static Blocks: Blocks with static run once when the cllass is loaded ..
 
 
 //jaha bhi koi bhi ak { } laga diya ohhh ho hain hain code blocks 
 
+// initialization block , har ak obj create hone pe run hota hain ..
+//or static block srif ak bar hi run hota hain , class create hone per ..
 
-(****************)
+
+(*******************************************)
 //pehele blocks 
 //then constructir .
 //then method..

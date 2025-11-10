@@ -15,7 +15,7 @@ public class Driver {
 
      public static void main(String[] args) {
         //object creation..
-       Car myCar = new Car();
+       Car myCar = new Car("Black");
        myCar.addFuel(6);
        Car startedCar =  myCar.Start();
        System.out.println(myCar.getCurrentFuelLevel());
