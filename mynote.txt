@@ -334,32 +334,62 @@ public class car {
 *****************************************
 6.3 Declaring objects .
 
+
+// object hum log banate hain new key word ko use karke ..
+
 1.object creation: new keyward she hum log object bana sakta hain .
 
 
 //agar kaha per bhi new keyword mile tho udhar might be continue a objects creation ..
 
+
+*******************
 //Memory allocation: object allocate memory  in the heap memory .
 
 //constructor invocation: calls the calss constructor to initialize the objects.
 
+
+//car myCar ---refrenece..
 //Reference Return: Returns a reference to the created objects .
 
+
+
 //Array Creation: also used for creating arrays like int[] arr = new int
+
+
 *************************
 car myCar == kishi object ka varibale ko reference keheta hain ...
 
 
 ak object create karke my box mein dal diya ..
+
 // abhi mybox mein andar ak address create ho geya .
+
 // or my box ke anadra aka reference create ho gya .
+
 //my box kehega mere pass ak address hain ,jho lehh jata hain main obj ke pass jaha main obj hain ..
 
 
 
 
+*************************
+
+//static allocation ...
+
+// agar koi bhi ak integer variable ko declare karta hain . to fir , jho jvm hain ohh samajh jata hain ki user ko integer hi chaiye , so ohhh pehele she hi ak integer ka memmory allocate karke rakh deta hain ...
+
+
+
+
+
+
+// but for new it is different ..
 
 //my car = new car ...
+
+
+// new sh ejho object declare kara jata hain , ohh hain dynamic allocation ...
+
 
 //Dynamic allocation : unlike static allocation new allows for dynamic
 
@@ -373,8 +403,8 @@ ak object create karke my box mein dal diya ..
 *********************************
 Declaring objects syntax.
 
-Class name objecname   keyword  constructor.
-
+Class name objecname   keyword  constructorca
+                                  call()
 student     student1 = new      student();
 
 
@@ -390,20 +420,33 @@ myClass    objRefvar           =   new         myClass();
 new is a java keyword used to instantitae a class.
 
 
+
+
+*****************
 //using object ..
 
-//access properties using .operator like product.price ..
+//access properties using (.)operator like product.price ..
 
+
+*********************
 //what is class and object 
 //class vs object .
 
-//class are blue print ..
 
+*******************
+//class are blue print ..
+*****************
 //object are real values in memory ..
+********************
+
 
 //new(keyword) map she jho new things create karne wala hain.. 
 
+// new keyword ak builder hain ...
+
+
 // class actuall memory mein exist nahi karta hain ..
+
 
 //har ak object ka har ak property honge ..
 
