@@ -1,0 +1,37 @@
+1.object - oriented programming is mainly concerned with data rather than logic.
+=>true.
+
+2.Instance methods in java can be called without creating an objects of the class .
+=>false.
+
+
+3.A class in java is a temlate that can be used to create objects 
+=> true.
+
+4.static methods belong to the class and can be called without an object.
+=. true.
+
+5.the new keyword is used to declare an array in java ..
+
+=> true.
+
+6.Variables declared within a method are called instance varibales..
+=>flase.
+
+7.in java you can access instance variables through static methods directly.
+==> false .
+
+8. Every objects in java has its own unique set of instance variables .
+==>true;
+
+9.The static keyword in java means that a particular member belongs to a type itself rather than to instance of that type.
+=>true.
+
+10.variables scope in java is determined at runtime.
+==> false .
+
+
+
+
+
+************************************************************************************************************************************************************************************************

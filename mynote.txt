@@ -763,18 +763,45 @@ class Car {
 
 //stack mein ak facility hota hain ki , jho sabshe upar hota hain , ohh pehele bahar niklega , orr , upor bhi add hoga , last in first out ..
 
-
+******************************
 
 //where method invocation, and local variables live , .
 //go()
+
 //doStuff()
+
 //main()
 
+
+
+//call stack ....
+
+
+****************************
 // method , stack memory main add hota hain ..
 // call stack .  
 // method jabvhi kishi ko call karta hain tab ohh ushki upor chala jata hain eshh tara akta stack create hota hain ..
 
 // stack hoga static.
+//stack ak static memory allocation hain ....
+
+//Heap ak dynamic memory allocation hoga ...
+
+//***********************
+// agar koi bhi ak obj banaya huya hain, ushka refrence sttack memory ke nadar hoga , lekin , obj heap memory ka andar hoga , 
+
+// agar method ohh memory mein jha raha hain , tab ohh refrence bhi chaala jha raha hain , lekin obj heap memory mein hi store hoke reh jha raha hain ..
+ehi problem hain ...
+
+
+
+
+//************************
+//class have memory , jaha bhi ap jabbhi obj create karte hain ohh jata hain heap memory ke andar ..
+
+//method call kar rahe hain ohh jha raha hain stack mein ..
+
+********************
 
 
 
@@ -789,6 +816,10 @@ class Car {
 // heap mein koi bhi particular place nahi hota hain , oha jaha jage mile oha , jah ke refeerence deh dete hain..
 //actually demo rehega stack mein or reference  bhi lekin object rehega heap meinn ..
 
+*************************8
+//jitne bhi , string hota hain , unka hea p mein bhi ak special jagha hota hain ohh hain stringpool...
+
+
 
 
 //***************************************
@@ -797,6 +828,7 @@ class Car {
 //data types in java ..
 
 //primitive (intrinsic)=>
+//code jab load ho raha hain tab ehh memory declare hota hain ..
 
 1.numeric.
 1.1- integer.
@@ -809,19 +841,59 @@ class Car {
 
 //primitive always present in the stack memory ..
 
-
+*******************************************
 //Non - primitive (derived)
 1class
 2.Array 
-3interface
-4Objects 
+3.interface
+4.Objects 
 5.String
 
 // non - primitive memory are always present in the heap memory ..
 
 //reference are may be also a integer value so, reference are store total 4 byte .
 
+**************************
+1. Primitive Data Types
 
+Primitive data types are the basic or fundamental data types provided by Java.
+They are predefined by the Java language and used to store simple values such as numbers, characters, or boolean values.
+
+Examples:
+byte, short, int, long, float, double, char, boolean
+
+Characteristics:
+
+Stored directly in memory where the variable is allocated.
+
+Contain only a single value (no methods or properties).
+
+Have a fixed size (e.g., int is always 4 bytes).
+
+Faster in execution and memory-efficient.
+
+Default values: 0 for numbers, false for boolean, ‘\u0000’ for char.
+
+2. Non-Primitive Data Types
+
+Non-primitive (or reference) data types are created by programmers and are used to store complex objects or multiple values.
+
+Examples:
+String, Array, Class, Interface, Object
+
+Characteristics:
+
+Store reference (memory address) of the actual object, not the object itself.
+
+Can have methods and properties.
+
+Variable size, depends on the object or data stored.
+
+Slower than primitive types due to reference handling.
+
+Default value: null (means no reference assigned).
+
+*****************************************************8
 
 
 
@@ -839,16 +911,21 @@ class Car {
 
 
 
-//*************
+//******************************************
 //variable scope ..
 
+//instance vs local variable ...
+
+
 //instance variable
- //local variable .
+
+//local variable .
 
 
 
 //local variable ..
-//jho bhi chis block ke nadar declare kara geya hain ohh hain local block ..
+
+//jho bhi chis block ke nadar declare kara geya hain ohh hain local block.. or locaal variable .. ..
 
 // instace  variable  hain class ke variable hain , inko puri class mein kahi bhi declare kar sakta hain .. ..
 
@@ -862,14 +939,30 @@ class Car {
 // ohh srif jaha bhi declare kara geya hain , udhar hi srif used kar sakta hain ,, llekin ushshe bahar nahi used kar sakte hain ..
 
 //global scope ke andar jho varibale declare kara jata hain , ohh hain global variable .
+//ish ko pura class mein kaha per bhi access kara jha sakta hain ..
+
 
 // or local scope ke andar jho variable declare kar sakte hain , ohh local variable hota hain ..
+
+// ehh srif local scope ki andar hi access kara jha sakta hain ..
+
 
 
 
 
 //****************************
 6.10 Garbage collection and finalize..
+
+//jitne bhi , or koi bhi , method hoga , ushka use hone ke bad hi ush ka memory , clear kar deya jayega , ...
+
+// eshe obj jishko koi or nahi used karta hain ,orrr
+
+// memory deallocation..
+
+
+***********************
+
+// heap memory mein jish obj ka ref nahi hain , ushko bahar nikal deta hain ..
 
 1.Automatic process: garbage collection is managed by the java virtual machine(jvm), running in the background.
 
@@ -878,6 +971,8 @@ class Car {
 3.No manual control: Unlike languages like c++ , java developers cannot explicitly deallocate memory , Garbage collection is automatic and non-deterministic.
 
 4.Generational collection: java uses a generational garbage collection strategy , which divides memory into different regions (young , old , and parmanent generations)based on objects ages.
+
+//gc Cycle ..
 
 5.heap memory : garbage collection occurs in the heap memory , where all java objects , reside.
 
@@ -894,18 +989,32 @@ class Car {
 
 
 
-// gc  koi bhi manusl intervention nahi hoga ,
+// gc  koi bhi manual intervention nahi hoga ,
 //automatically  chalega , 
 //move karega
 //jinke pass reference nahi hain unko , move karrega , young mein , old mein , then permanent generations main ..
 
 
 
-//
+//*****************************************
+ //Garbage collection And finalize...
+
+
+ obj             obj           obj              obj        obj
+ created       unreachable    addded to    finalized reclaimed
+                            finalization queue  
 
 
 
+1.Finalization : Before an object is garbage collected the finalize() methods may be called giving the obj  a chance to clean up resources. however its not guranteed to run  and its usage is generally discouraged.
 
+2.optimization: Developers can optimize the process indirectly through code practices like setting unnecessary object refrences to null.
+
+3.System.gc() call: While System.gc() suggests that the jvm performs garbage collection , its nota a gurantee..
+
+
+
+******************************************************************************************************************************************************************************************
 
 
 

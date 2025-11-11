@@ -109,15 +109,21 @@ public class Car{
 
 
 
+//     //finalized method ..
+//     @Override
+//     protected void finalized() throws  Throwable{
+//     System.out.println("i am in finalized");
+// }
+
     public static void main(String[] args) {
 
     //     //object creation..
        Car myCar = new Car("Black");
-       myCar.Start().drive();
-       System.out.println(myCar.Colour);
-       System.out.println(myCar.noOfWheels);
-       System.out.println(myCar.noOfseats);
-       System.out.println(myCar.CurrentFuleInLiters);
+    //    myCar.Start().drive();
+    //    System.out.println(myCar.Colour);
+    //    System.out.println(myCar.noOfWheels);
+    //    System.out.println(myCar.noOfseats);
+    //    System.out.println(myCar.CurrentFuleInLiters);
     //    myCar.addFuel(6);
     //    Car startedCar =  myCar.Start();
     //    System.out.println(myCar.getCurrentFuelLevel());
