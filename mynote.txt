@@ -1017,6 +1017,263 @@ Default value: null (means no reference assigned).
 ******************************************************************************************************************************************************************************************
 
 
+7. control Ststement , Math and String.
+
+1.Ternary Operator.
+2.Switch.
+3.Loops(Do-while, for, for each)
+4.using break and continue,
+5.Resursion,
+6.Random Numbers and Math class.
+7.Dont Learn syntax .
+8.ToString Method.
+9.String class.
+10.StringBuffer Vs StringBuilder.
+11.Final Keyword .
+
+
+***************************8
+
+7.1 ternary operator ..
+
+1.syntax: condition ? expression1  : expression 2;
+2.conddition: boolean expression evaluates to true or false .
+3.expression: Both expression must be return compatible types ,
+4.use case: suitable for simple conditional assignments.
+5.Readability: Good for simple conditions but can reduce clarity if overused .
+
+
+
+*********************************
+7.2 Switch statement ..
+
+1.Multiple Cases: Handles multiple values for an expression efficiently .
+
+2.Supported Types: Accepts byte, short , char , int , String, enums, and from java 14 long , float , double .
+
+3.Case Lables; Each Case ends with a colon(:) and is followed cases.
+
+4.Break Statement: Typically used to prevent fall through between cases.
+5.Deafult Case: Executes if no case Matches; optional and doesnot require break,
+6.type safety: case label type must match the switch expression s type .
+
+
+
+*********************
+//1.Enhanced Switch : java 12 introduced enhancements like yield and multiple contants per case .
+
+//2.Switch Expresssion : from java 14  switch can return a value using yield.
+
+
+example ...
+
+String output = Switch (day){
+    case1 -> "Monday"
+    case2 -> "tuesday"
+    case1 -> "Wednesday"
+    case1 -> "thursday"
+    case1 -> "friday"
+    case1 -> "saturday"
+    case1 -> "sunday"
+    case1 -> "invalid"
+}
+System.out.println(output);
+
+
+
+
+
+//*********************************
+
+7.3 Loops(do-while)
+
+do{
+    //body of the loop;
+}
+while(condition);
+
+
+1.Executes block first then checks condition.
+2.Guaranteed to run at least one iteration.
+3.Unlike while, first iteration is unconditional.
+4.dont forget to update condition to avoid infinite loops.
+
+
+
+
+*****************
+Loops(For Loops )
+
+for(initializations, condition , updation){
+    //Body of the loops
+
+}
+//Standard loop for running code multiple times .
+
+//generally preferred for counting iterations.
+
+
+***************************
+loops(For Each loops)
+1. A method for array iteration often preferred for readability ..
+2.parameters: one for item, optinal second for index.
+3.using return is similar to continue in traditional loops.
+4.Not straightforward to break out of a forEach loop.
+5.when you need to perfrom an action on each array element and dont need to break early.
+
+************************
+//🔁 1️⃣ while loop
+Definition:
+
+The while loop is an entry-controlled loop — meaning it checks the condition before executing the body of the loop.
+
+Syntax:
+while (condition) {
+    // statements
+}
+
+How it works:
+
+The condition is evaluated first.
+
+If the condition is true, the body executes.
+
+After execution, the condition is checked again.
+
+Loop continues until the condition becomes false.
+
+If the condition is false initially, the loop body never executes.
+
+Use Case:
+
+Used when the number of iterations is not known in advance (e.g., reading input until user stops).
+
+Example:
+int i = 1;
+while (i <= 5) {
+    System.out.println(i);
+    i++;
+}
+
+
+**********************************
+🔂 2️⃣ for loop
+Definition:
+
+The for loop is also an entry-controlled loop, but it is best used when the number of iterations is known in advance.
+
+Syntax:
+for (initialization; condition; update) {
+    // statements
+}
+
+How it works:
+
+Initialization runs once at the start.
+
+Condition is checked → if true, loop body executes.
+
+After each iteration, update (like i++) runs.
+
+The loop continues until condition becomes false.
+
+Use Case:
+
+Used for count-controlled loops (like printing numbers 1 to 100).
+
+Example:
+for (int i = 1; i <= 5; i++) {
+    System.out.println(i);
+}
+
+
+*********************************
+🔄 3️⃣ do-while loop
+Definition:
+
+The do-while loop is a exit-controlled loop — meaning the condition is checked after executing the loop body.
+
+Syntax:
+do {
+    // statements
+} while (condition);
+
+How it works:
+
+The body executes at least once, even if the condition is false.
+
+After executing the body, condition is checked.
+
+If the condition is true, it repeats.
+
+Use Case:
+
+Used when you need the loop to run at least once, regardless of condition (like a menu-driven program).
+
+Example:
+int i = 1;
+do {
+    System.out.println(i);
+    i++;
+} while (i <= 5);
+
+**********************************
+🔁 4️⃣ for-each loop (enhanced for loop)
+Definition:
+
+The for-each loop is used to iterate over arrays or collections directly, without using an index variable.
+
+Syntax:
+for (dataType variable : arrayOrCollection) {
+    // statements
+}
+
+How it works:
+
+It automatically picks each element from the collection or array.
+
+No need for manual index or counter.
+
+It works only in forward direction (cannot modify or access index directly).
+
+Use Case:
+
+Used to read or display each element of an array or collection.
+
+Example:
+int[] numbers = {1, 2, 3, 4, 5};
+for (int num : numbers) {
+    System.out.println(num);
+}
+
+
+****************************
+
+
+*********************
+7.4 using break and continue ..
+1.Breaks lets you stop a loop early or break out of the loop.
+2.continue is used to skip one iteration or the current iteration.
+3.in while loop remember to do the increment manually before using continuee ..
+
+
+
+*********************************
+7.5 Recursion..
+
+1.selfcalling function: TRecursio is when a function calls itself..
+
+2.Base Case: Essential To stop recursion snd prevent infinte loops ..
+
+3.Recursive case: The part where the function makes a recursive call.
+
+4.stack overflow Risk : Exxessive recursion can cause stack overflow erroes.
+
+5.problem solving : ideal for problemss divisible into similar . smaller problems.
+
+
+
+
 
 
 
