@@ -3,6 +3,8 @@
 
 //lets start the java programming language begginers to advance.
 
+
+**************************
 //java languge use karke hum log keya keya kar sakta hain,
 
 //wide usage (web-apps, backend,mobile apps ,enterprise softwware ),all things are do using java programming language ,
@@ -10,6 +12,9 @@
 //object oriented,
 
 //rich api and community supports,
+
+
+***********************
 
 //what is programming language..
 //computer natural language nahi samajh ta hain.srif binary number samajh ta hain .
@@ -23,6 +28,12 @@
 
 //programming language is the middle language between human and machine.
 
+*************************
+What is compiler ...
+what is interpreter ..
+
+***********************************
+
 //what is algorithm.
 //koi bhi kam step step execute korneka process hi hotta hain algorithm.
 
@@ -30,28 +41,37 @@
 
 //koi bhi problem ka solution nikal neke liye jho jho hum log step by step process likhte hain ohi hota hain algorithm.
 
+*******************************
 //what is syntax.
 //structure of words in a sentence.
 //rules of the language.
 //for programming exact syntax must be follewd.
-//
+//what is create an meaning ..which was understand by the machine .
 
 
+**************************
 //History of java
+
 //james goshling --ka karta the sun microsystems company per kam karta the ..
 //1990 mein kam karte the ,or unko ak vcr player type ki chis banane thi then ushko bananeke liye uhhnone c++ use karna shurur kiya,uhnone c++ karneka time notice kiya ki c++ main bohot sare problem hain ,code manage nahi ho pha raha hain.
 
+
+*******************
 //then he and his team make a programming language that is kown as java programming language.
 
 
 //java ka pehela nnam tha ohk..remane hoya 9095 mein java huya.
+****************
 
 //java programming language ka main principle ehh tha ki write onne and run anywhere.
 
 //enhone bola ki apne programming language ko hum log direct macchine level language mein nahi convert karenge ..
-java program => svae program as -my program(any name.java)=>compiler (compiler kam karta hain high level language ko  machhine level language mein convert karta hain),lekin ehaa per machine level language mein nahi convert karke just(al intermediate code mein convert kar diiya that is known as byte code)=> the ayega jvm(java vartual machine )ohi ohh byte codee kko mechine level language mein convert karega.
 
 
+java program => svae program as -my program(any name.java)
+=>compiler (compiler kam karta hain high level language ko  machhine level language mein convert karta hain),lekin ehaa per machine level language mein nahi convert karke just(al intermediate code mein convert kar diiya that is known as byte code)=> the ayega jvm(java vartual machine )ohi ohh byte codee kko mechine level language mein convert karega.
+
+***************************
 //why this programming language name saev as a java ?
 backword compatablelity..
 
@@ -59,30 +79,41 @@ backword compatablelity..
 
 //version-------java1.02(250 classes) => java1.1(500 classes) =>java 2(2300 classes) ==>java5.0(3500classes)
 
-
+***************************8
 //magic of byte code
 
 //sourec code => compiler => output code(byte code) ==> jvm
 
+************
 //compiler change hi kar diya ushka kam ,like basically compiler works as a connvert high level code to low lwvwl code(machine level code)
 
 //but the compiler work as check error of an code,validity of an code,or code ko ashi ak intermidiate language mein convert karna ki jho human readable na ho..
 
+
+*********************
 //byte code ka advantages...
 // 1. verify the code
 2.human readable nahi kiya .
 
 3. any platform mein chal sakta hain.
 
-
+****************************8
 //how java change the internet..
 //portability with write once and Run anywhere.
 
 //security beacuse runnning on virtual machine,
+//ak vartual machine mein run hota hain ..
 
+//ak machien dushri jho machine ka ram hain hh access kar sakta tha ..
+
+
+
+**********************
 //(snadboxing)..security..
 
 //ex: ap jitna array declare kara hain ap utna hi used kar sakta hoin ushhe bahar ap nahi used kar sakta hoin ehh jvm bolega..
+
+
 
 //java Buzzwords or Robust..
 //strong --consitency jho chal paye..
@@ -90,11 +121,15 @@ backword compatablelity..
 
 //java continously chal pata hain bina bug or bina error ke ..
 
+
 //multithreaded.
 //cpu to execute multiple threads concurrently,allow more efficently processing and task management.
+// ak software mein , bohot share  application chala sakte hain ..
+
 
 //architecture neutral.
 //java is architecturally neutral because its complied code(bytecode) can run on any device.with jvm.
+
 
 //interpreted annd high performence.
 //java combines high performance with interpretability as its bytecode is interpreted by the jvm.which ploys  jit(just in time).
@@ -102,27 +137,37 @@ backword compatablelity..
 //distributesd..
 //java is inherenly distributed .
 
-
+***************************
 //oop(object oriented programming language).
 //keya kam karna hainn.
 // or kishpe karna hain.
 
+
+//procude oe ak hota hain data ..
+
+//when work done on the obj then its kanown as object oriented programming language .
+
+//obj
+//property..
+//methods.
+
+
 //pehela hamara data keya hain..or ush data ke upor keya keya kam karana hain..
 
 
-//*************************************************************
+//*******************************************************************************************************************************************************************************
 
 //java basic.
 
 ////java ak strongly type language hain.
 
 
-//java mein har chhis class mein ata hain or mainmethid ke andar ata hain.
+//java mein har chhis class mein ata hain or main method ke andar ata hain.
 
 program.java(java source file)=>java compiler(javac)=>program.class(bytecode.class File)=>jvm(java)=>program(output).
 
 
-
+********************888
 //Anatomy of a class..
 
 //public class FirstProgram{
@@ -131,6 +176,7 @@ program.java(java source file)=>java compiler(javac)=>program.class(bytecode.cla
         System.out.println("Hi Debanjan");
     }
 }
+
 public=> every one can access it,(jvm ishko access kar sakt ahain.)
 class=>In Java, a class is a blueprint or template used to create objects.
 
@@ -152,6 +198,8 @@ classname=>any name as per user
 
 }
 
+
+
 //important of main methid..
 
 public static void main(string[] args)
@@ -164,8 +212,8 @@ public static void main(string[] args)
 // ensuring access by  the jvm without needing to instance the class.
 
 
-
-
+*******************************
+*********************************
 
 //java file extention
 .java =>source code
@@ -173,17 +221,21 @@ public static void main(string[] args)
 
 //jdk, jvm ,and jre.
 
-
-
+***************************
+*********************
 //jvm => sabshe andar jvm// not platform -independent.
+//java development kit
 
-//jre=> then ushe upor jre
 
-//jdk=>the ushhe upor jdk.
+************************
+//jre=> then ushe upor jre//java run time env
+
+**************************
+//jdk=>the ushhe upor jdk. //java developement kit.
 
 //jdk bohot kam logoke pass hoga lekin jre har ak ke pass rahta hain.
 
-
+******************************************
 //what is ide..
 1.ide stand for integrated development environment.
 
