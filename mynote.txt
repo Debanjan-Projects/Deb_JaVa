@@ -199,7 +199,10 @@ classname=>any name as per user
 }
 
 
-
+************************************
+***************************************
+**************************************
+//entry point hain main method ....
 //important of main methid..
 
 public static void main(string[] args)
@@ -207,6 +210,9 @@ public static void main(string[] args)
 //entry point of a java program where the execution starts ..
 //without main method the java virtual machine does not know where to being running the code.
 
+
+***********************************
+*************************************
 
 //public static:
 // ensuring access by  the jvm without needing to instance the class.
@@ -235,6 +241,11 @@ public static void main(string[] args)
 
 //jdk bohot kam logoke pass hoga lekin jre har ak ke pass rahta hain.
 
+
+
+
+
+*****************************************
 ******************************************
 //what is ide..
 1.ide stand for integrated development environment.
@@ -243,6 +254,142 @@ public static void main(string[] args)
 
 3.central hub for coding finding problems,and testing.
 4.designed to improve developer efficiency.
+
+//*******************************************************************************************************************
+//variables ..
+//Memory Allocation.
+//data types.
+//Naming Convention.
+//java Indentifier rules.
+//Literals
+//Keywords
+//Escape Sequences.
+
+//userInput
+//Scanner scanner  = new Scanner(System.in)
+//System.out.println(" Please Enter a Number :")
+int number = scanner.nextInt()
+
+nextInt() -- for integer.
+nextDouble() --for Double 
+
+nextFloat() --- for float value .
+
+nextLong()
+
+nextLine() -- for String .
+
+
+//type convertion and casting ...
+
+byte- short- int - long - float - double .
+widening - implicit ..
+
+narrowing(explicit)
+byte<- short <- int <- long <- float < - double .
+
+
+//*****************************************************************************************
+//operators , if else nd number systems .
+
+
+//assignment operators ..
+
+
+//arithmetic operator .
++  - * / %
+
+
+//order of operation .
+Bodmas.
+
+
+// shorthand operator .
++= -= *= /= %= 
+
+
+//unary operator .
+++x , x++ , --x, x--
+pre , post , increment , decrement .
+
+//if -else .
+//condition.
+
+//relational operator .
+
+//equality,
+//inequality,
+//Relational.
+
+//logical operator .
+//and , or, not.
+
+
+
+// operator precedence
+/unary 
+//arithemetic .
+//ahift.
+//relational
+//bitwise.
+//logical.
+//ternary.
+//assignment
+
+//associativity..- right to let for only unary and assignment operator ..
+
+//and for other al are laft to right ..
+
+
+//intro to number system .
+binary .
+//octal 
+//decimal.
+//hexadecimal.
+
+
+// intro to bitwise operator ..
+//and 
+//or.
+//xor.
+//not.
+//left shift operator .<<
+//right shift operator .>>
+
+
+****************************************************************************
+//for today i skip the 21- 27 challange
+*********************************************************************************************
+
+//while loops , methods and array ...
+
+//comments .
+//single 
+//multiple level ,
+//docs level .
+
+
+
+//while loop .
+
+//methods //functions 
+//blocks of reusable code .
+
+ 
+//return statemnet.
+
+//sends a value back form a function..
+
+//return may be any things , value , variable , calculation etc ..
+
+//Arguments.//parameters .
+
+
+
+//Array.
+//2D arrya .
+
+
 
 
 
